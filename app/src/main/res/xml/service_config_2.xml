@@ -1,0 +1,8 @@
+<accessibility-service
+    android:packageNames="org.mozilla.firefox, com.android.chrome"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeViewAccessibilityFocused|typeViewClicked"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:notificationTimeout="100"
+    android:accessibilityFlags="flagRetrieveInteractiveWindows"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    />

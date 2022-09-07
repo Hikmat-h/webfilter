@@ -1,0 +1,9 @@
+<accessibility-service
+    android:packageNames="org.mozilla.firefox, com.android.chrome, org.telegram.messenger"
+    android:accessibilityEventTypes="typeViewClicked|typeViewSelected|typeViewTextChanged|typeViewAccessibilityFocused|typeContextClicked|typeViewFocused"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:notificationTimeout="100"
+    android:accessibilityFlags="flagRetrieveInteractiveWindows"
+    android:canRetrieveWindowContent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    />
